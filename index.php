@@ -1,9 +1,20 @@
-<php?
-	include 'header.php';
+<?php
+	function getPostTitlesFromDatabase() {
+		// TODO IN module 4
+		// get this data from a database instead of hardcoding it 
+		$postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+		return $postTitles;
+	}
 ?>
-<!doctype HTML>
-<html lang="en">
-	
+<ul> 
+<?php 
+	$postTitles = getPostTitlesFromDatabase();
+
+	foreach ($postTitles as $postTitle) {
+		echo "<li><a href='post.php'>" . $postTitle . "</a></li>"; 
+	}
+	?>
+</ul>
     <main>
 	<head>
     <title>Homepage</title>
@@ -14,7 +25,6 @@
 		<div class="container turquoise topBotomBordersOut">
 			<a href="post.php">post</a>
 			<a href="post-submission.php">Post-submission</a>
-			<a href="part9.php">part9</a>
 		</div>
 		<nav>
 		<a href="https://www.instagram.com/luciernaga.maison/" target="_blank" rel="noopener noreferrer">
