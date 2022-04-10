@@ -36,6 +36,6 @@ if ($isSettled) {
 foreach($childrenNames as $childName) {
     echo "<li>" . $childName . "</li>"; 
 }
-echo "<li><a href='post.php?title=' . $postTitle . " >" . $postTitle . 
+echo "<li> <a href='/post.php?title=Blog Post 1' . $postTitle . ">" . $postTitle . 
 "</a></li>"; 
->?
+?>
