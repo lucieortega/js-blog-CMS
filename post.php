@@ -6,14 +6,13 @@ include 'header.php';
 	
     <main>
     <head>
-    <title>Homepage Luciernaga</title>
+    <title>Post</title>
 	</head>
 	<body>
 		<h1>TITLE</h1>
     
        <div>author, date published, and post content</div> 
     
-	
 		<footer>
 			<p>
 			© 2022 Lucie Ortega

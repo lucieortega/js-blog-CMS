@@ -5,7 +5,7 @@ include 'header.php';
 <html lang="en">
     <main>
 	<head>
-    <title>Homepage</title>
+    <title>Post-submission</title>
 	</head>
 	<body>
 		<h1>Welcome</h1>
