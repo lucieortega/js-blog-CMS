@@ -14,6 +14,7 @@
 		<div class="container turquoise topBotomBordersOut">
 			<a href="post.php">post</a>
 			<a href="post-submission.php">Post-submission</a>
+			<a href="part9.php">part9</a>
 		</div>
 		<nav>
 		<a href="https://www.instagram.com/luciernaga.maison/" target="_blank" rel="noopener noreferrer">

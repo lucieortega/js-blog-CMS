@@ -10,4 +10,27 @@ $childrenNames = array("Alice", "Bob");  // Array type variable
 $fullName = $firstName . " " . $lastName        // Concatenation operator
 $dogYears = $age/7;                             // Arithmetic operator
 $isAdult = $isAdult and $married;               // Integrer type variable
+
+function getFullName($firstName, $lastName) {   // Function name
+     return $firstName . " " . $lastName;       // Return values
+}
+
+$FullName = getFullName($firstName, $lastName);  // using variable
+$fullName = getFullName("Alice", "Ortega")       // using values
+
+function getIsSettled($age, $married) {         // function name
+    $dogYears = $age/7;
+    $isAdult = $dogYears > 4;
+    $isSettled = $isAdult and $married; 
+    return $isSettled;                          //returned values
+}
+
+$isSettled = getIsSettled($age, $married);      // using variable
+$isSettled = getIsSettled(5, false);            // using values
+
+if ($isSettled) {
+    echo $fullName . " is settled.";
+} else {
+    echo $fullName . " is not settled.";
+}
 ?>
