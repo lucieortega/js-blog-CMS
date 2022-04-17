@@ -2,6 +2,11 @@
 	include_once 'db_connect.php'; // Connect to the database
 	$sql = "SELECT title FROM posts";
 	$result = mysqli_query($conn, $sql);
+
+	$postTitles = array();
+	while($row = mysqli_fetch_assoc($result)){
+		array_push($postTitles, $row['title']);
+	}
 ?>
 <?php
 	function getPostTitlesFromDatabase() {
