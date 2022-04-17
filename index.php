@@ -1,3 +1,6 @@
+<?php 
+	include_once 'db_connect.php'
+?>
 <?php
 	function getPostTitlesFromDatabase() {
 		// TODO IN module 4
