@@ -12,7 +12,7 @@ include 'header.php';
 		// Get the post that matches the postTitle
 		include_once 'db_connect.php'; // Connect to the database
 		$sql = "SELECT * FROM posts WHERE title='" .$postTitle . "'";
-		$result = mysqli_query($sql)
+		$result = mysqli_query($sql);
 		
 		// Get the first row from the result as an associative array
 		$postDetails = mysqli_fetch_assoc($result);
