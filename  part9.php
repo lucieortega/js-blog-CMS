@@ -38,4 +38,4 @@ foreach($childrenNames as $childName) {
 }
 echo "<li> <a href='/post.php?title=Blog Post 1' . $postTitle . ">" . $postTitle . 
 "</a></li>"; 
-?>
+?> 
