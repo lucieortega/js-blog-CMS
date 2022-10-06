@@ -1,4 +1,10 @@
 <?php 
+	function getPostTitlesFromDatabase() {
+		// TODO in MODULE 4
+		// get this data from a database imstead of hardcoding it
+		$postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+		return $postTitles;
+	}
 	include_once 'db_connect.php'; // Connect to the database
 	$sql = "SELECT title FROM posts";
 	$result = mysqli_query($conn, $sql);
