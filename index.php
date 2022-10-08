@@ -1,4 +1,5 @@
 <?php 
+ 	include_once 'db_connect.php'
 	function getPostTitlesFromDatabase() {
 		// TODO in MODULE 4
 		// get this data from a database imstead of hardcoding it
@@ -43,7 +44,7 @@
 	<head>
     <title>Homepage</title>
 	</head>
-	<body>
+	
 		<h1>Welcome</h1>
 		<h2>Bienvenue - Bienvenidos</h2>
 		<div class="container turquoise topBotomBordersOut">

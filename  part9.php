@@ -7,7 +7,7 @@ $age = 28;                               // Integrer type variable
 $married = true;                         // Boolean type variable
 $childrenNames = array("Alice", "Bob");  // Array type variable
 
-$fullName = $firstName . " " . $lastName        // Concatenation operator
+$fullName = $firstName . " " . $lastName;       // Concatenation operator
 $dogYears = $age/7;                             // Arithmetic operator
 $isAdult = $isAdult and $married;               // Integrer type variable
 
@@ -38,8 +38,4 @@ foreach($childrenNames as $childName) {
 }
 echo "<li> <a href='/post.php?title=Blog Post 1' . $postTitle . ">" . $postTitle . 
 "</a></li>"; 
-<<<<<<< HEAD
 ?> 
-=======
-?>
->>>>>>> 11afae854da7938536005747485eb15670b21b85
