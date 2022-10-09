@@ -10,3 +10,11 @@ var husband = { firstName: "John", lastName: "Doe", age: 35 }
            function getFullName(firstName, lastName) {     // Function name
            return  firstName + " " + lastName;         // Returned value
             }
+
+            var fullName = getFullName(firstName, lastName);   // Using variables
+            var fullName = getFullName("Alice", "Doe");        // Using values
+            if (isSettled) {
+                document.write(fullName + " is settled.");
+            } else {
+                document.write(fullName + " is not settled.");
+            }
