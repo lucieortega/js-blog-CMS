@@ -44,7 +44,6 @@
 	<head>
 	<script>
     alert("Hello World");
-</script>
     <title>Homepage</title>
 	</head>
 	<?php
