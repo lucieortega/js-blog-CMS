@@ -3,6 +3,15 @@ include 'header.php';
 ?>
 <form action="submit-post.php" method="POST"> ... </form>
 <?php
+
+$.post( "submit-post.php", { 
+	title: "AJAX Post", 
+	content: "AJAX Post Content", 
+	author: "me", 
+	date: "2018-01-01" 
+}).done(function( data ) {
+	alert( "Data Loaded: " + data );
+});
    // get the data to insert into the db
    $title = $_POST["title"];
    $content = $_POST["content"];
@@ -17,7 +26,7 @@ include 'header.php';
    
    // redirect to homepage
    header("Location: index.php");
-?>
+?>$
 <!doctype HTML>
 <html lang="en">
     <main>
