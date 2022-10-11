@@ -3,7 +3,10 @@ include 'header.php';
 ?>
 <form action="submit-post.php" method="POST"> ... </form>
 <?php
-
+$.get( "index.php")
+    .done(function( data ) {
+        alert( "Data Loaded: " + data );
+    });
 $.post( "submit-post.php", { 
 	title: "AJAX Post", 
 	content: "AJAX Post Content", 
